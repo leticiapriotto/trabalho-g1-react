@@ -321,7 +321,7 @@ button {
 /** banner section **/
 
 .banner_main {
-     background: url(../images/banner.jpg);
+     background: url(../images/banner4.png);
      padding: 310px 0px 0px 0px;
      background-size: 100% 100%;
      background-repeat: no-repeat;
@@ -339,7 +339,7 @@ button {
      padding-bottom: 45px;
      font-weight: bold;
      text-transform: uppercase;
-     letter-spacing: 85px;
+     /*letter-spacing: 85px;*/
      text-align: center;
 }
 
@@ -349,7 +349,7 @@ button {
      font-size: 56px;
      line-height: 50px;
      text-transform: uppercase;
-     letter-spacing: 90px;
+     /*letter-spacing: 90px;*/
 }
 
 .text-bg ul.social_team {
