@@ -153,7 +153,7 @@
       </section>
       <!-- end banner -->
 
-      <!-- about section -->
+      <!-- react section -->
       <div id="about" class="about">
          <div class="container">
             <div class="row ">
@@ -180,16 +180,18 @@
             </div>
          </div>
       </div>
-      <!-- about section -->
-      <!-- software section -->
+      <!-- react section -->
+
+      <!-- spa section -->
       <div class="software">
          <div class="container-fluid">
             <div class="row d_flex">
                <div class="col-md-6">
                   <div class="titlepage">
-                     <h2>Software Maker</h2>
-                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud </p>
-                     <a class="read_more" href="#">Click here</a>
+                     <h2>SPA (Single Page Application)</h2>
+                     <p id="caixaTexto">SPA - em português, <b>Aplicações de Página Única</b> - São aplicações cuja funcionalidade está concentrada em uma única página. Ao invés de recarregar toda a página ou redirecionar o usuário para uma página nova, apenas o conteúdo principal é atualizado de forma assíncrona, mantendo toda a estrutura da página estática.</p>
+
+                     <button onclick="mudarTextoDaCaixa()">Clique aqui para Mudar o Texto da Caixa</button>
                   </div>
                </div>
                <div class="col-md-6 padding_right2">
@@ -200,7 +202,8 @@
             </div>
          </div>
       </div>
-      <!-- software section -->
+      <!-- spa section -->
+
       <!-- We Do section -->
       <div id="we_Do" class="we_do">
          <div class="container">
@@ -530,6 +533,10 @@
              map: map,
              icon: image
            });
+         }
+
+         function mudarTextoDaCaixa() {
+             document.getElementById("caixaTexto").innerHTML = "O texto da caixa foi mudado com sucesso!";
          }
       </script>
       <!-- google map js -->

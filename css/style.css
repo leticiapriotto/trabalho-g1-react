@@ -518,6 +518,10 @@ button {
 
 .software .titlepage h2 {
      color: #fff;
+     font-size: 35px;
+}
+.software .titlepage p {
+     text-align: justify;
 }
 
 .software .software_img figure {
@@ -552,6 +556,15 @@ button {
      background-color: #fcc10e;
 }
 
+.software button {
+     margin-top: 15px;
+     padding: 20px;
+     background-color: #fff;
+}
+
+.software button:hover {
+     opacity: 0.8;
+}
 
 /** end software section **/
 
