@@ -459,8 +459,13 @@ button {
      background-color: #fdfdfd;
 }
 
-.about .about_img {
-     margin-left: -76px;
+.about .about_img figure {
+     text-align: center;
+}
+
+.about .about_img img {
+     width: 125px;
+     margin-top: 20px;
 }
 
 .about_right {
